@@ -1,0 +1,35 @@
+Things to do this stream:
+	- [x] Sprites
+		- [x] Get environment sprites
+		- [x] get player sprites
+		- [x] get other sprites
+		
+	- [x] Environment
+		- [x] Tilemap with sprites in it
+		- [x] Build a level
+		
+	- [x] Player
+		- [x] Movement
+			- [x] Walk to the left and to the right
+			- [x] Jump
+			- [x] Cojoty time
+		- [x] Animations
+			- [x] Flip Sprite
+			- [x] change Sprite depending on the player state
+				- [x] Idle
+				- [x] Run
+				- [x] Jump
+		- [x] Collect stuff
+		
+	- [x] Collectables
+		- [x] Make Normal Animation
+		- [x] Make Collect Animation
+		- [x] Destroy on Player Collect
+		- [x] Reset the timer
+		
+	- [x] Timer
+		- [x] If it runs out, it kills the player
+		
+	- [x] Goal
+		- [x] Load the next level
+		- [x] Pauses the player
