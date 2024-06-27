@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxrfeirarjfd1"]
+
+[ext_resource type="Script" path="res://scenes/interfaces/death_bar/timer/timer.gd" id="1_garxe"]
+[ext_resource type="PackedScene" uid="uid://cnu48old1a35s" path="res://scenes/interfaces/death_bar/death_bar.tscn" id="1_mrjsi"]
+[ext_resource type="PackedScene" uid="uid://cjbnblnuq0cyb" path="res://scenes/interfaces/pause_menu/pause_menu.tscn" id="3_qynwe"]
+
+[node name="Interface" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_garxe")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="DeathBar" parent="CanvasLayer" instance=ExtResource("1_mrjsi")]
+
+[node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("3_qynwe")]
+visible = false

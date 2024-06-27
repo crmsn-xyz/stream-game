@@ -2,6 +2,7 @@ extends StaticBody2D
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var timer: Timer = $Timer
+@onready var death_timer: Timer = $"../Interface/CanvasLayer/DeathBar/HBoxContainer/Control/Timer/Timer"
 @onready var player: Player = %Player
 
 func _on_area_2d_body_entered(body):
@@ -9,6 +10,7 @@ func _on_area_2d_body_entered(body):
 	
 	player.able_to_walk = false
 	
+	death_timer.stop()
 	animated_sprite.play("pressed")
 
 

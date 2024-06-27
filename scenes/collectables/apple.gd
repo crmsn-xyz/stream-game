@@ -9,6 +9,5 @@ func _on_body_entered(body):
 	animated_sprite.play("collected")
 	
 
-
 func _on_animated_sprite_2d_animation_finished():
 	queue_free()

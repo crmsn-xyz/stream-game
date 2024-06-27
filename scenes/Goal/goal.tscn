@@ -1,8 +1,8 @@
 [gd_scene load_steps=15 format=3 uid="uid://bmsvwldhbuyqj"]
 
 [ext_resource type="Script" path="res://scenes/Goal/goal.gd" id="1_p1ocb"]
-[ext_resource type="Texture2D" uid="uid://dw17ae0m7kgmx" path="res://assets/Items/Checkpoints/End/End (Idle).png" id="1_vm3ue"]
-[ext_resource type="Texture2D" uid="uid://oxg5dtwx1mej" path="res://assets/Items/Checkpoints/End/End (Pressed) (64x64).png" id="3_ry1rt"]
+[ext_resource type="Texture2D" uid="uid://dw17ae0m7kgmx" path="res://assets/pixel-adventure/Items/Checkpoints/End/End (Idle).png" id="1_vm3ue"]
+[ext_resource type="Texture2D" uid="uid://oxg5dtwx1mej" path="res://assets/pixel-adventure/Items/Checkpoints/End/End (Pressed) (64x64).png" id="3_ry1rt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i6x35"]
 atlas = ExtResource("3_ry1rt")

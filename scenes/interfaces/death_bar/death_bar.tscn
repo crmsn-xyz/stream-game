@@ -1,0 +1,51 @@
+[gd_scene load_steps=5 format=3 uid="uid://cnu48old1a35s"]
+
+[ext_resource type="PackedScene" uid="uid://dru5rqikppp0f" path="res://scenes/interfaces/death_bar/timer/timer.tscn" id="1_k8jfn"]
+[ext_resource type="Texture2D" uid="uid://yd6vwxsq7p1k" path="res://assets/progress-bar/progress bar least rounded under.png" id="2_4gsjs"]
+[ext_resource type="Texture2D" uid="uid://cqiy11lgx6ork" path="res://assets/progress-bar/progress bar least rounded over.png" id="3_xoqrf"]
+[ext_resource type="Texture2D" uid="uid://on51lxydduip" path="res://assets/progress-bar/progress bar least rounded progress red.png" id="4_4mohw"]
+
+[node name="DeathBar" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 7.0
+offset_right = 1.0
+offset_bottom = 7.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="Timer" parent="HBoxContainer/Control" instance=ExtResource("1_k8jfn")]
+unique_name_in_owner = true
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -148.0
+offset_top = 1.0
+offset_right = -61.0
+offset_bottom = 25.0
+
+[node name="ProgressBar" type="TextureProgressBar" parent="HBoxContainer/Control"]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = -64.0
+offset_right = 124.0
+offset_bottom = 26.0
+step = 0.0
+nine_patch_stretch = true
+texture_under = ExtResource("2_4gsjs")
+texture_over = ExtResource("3_xoqrf")
+texture_progress = ExtResource("4_4mohw")

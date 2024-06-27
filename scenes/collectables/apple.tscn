@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/collectables/apple.gd" id="1_a6wlb"]
 [ext_resource type="Texture2D" uid="uid://c607e2yoqxso1" path="res://scenes/collectables/assets/Apple.png" id="1_dg4rv"]
-[ext_resource type="Texture2D" uid="uid://cld75ymmgmpqd" path="res://assets/Items/Fruits/Collected.png" id="2_vbmte"]
+[ext_resource type="Texture2D" uid="uid://cld75ymmgmpqd" path="res://assets/pixel-adventure/Items/Fruits/Collected.png" id="2_vbmte"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ui1nm"]
 atlas = ExtResource("2_vbmte")
