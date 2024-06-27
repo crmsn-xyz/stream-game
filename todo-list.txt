@@ -1,3 +1,5 @@
+19.06.2024
+----------
 Things to do this stream:
 	- [x] Sprites
 		- [x] Get environment sprites
@@ -33,3 +35,20 @@ Things to do this stream:
 	- [x] Goal
 		- [x] Load the next level
 		- [x] Pauses the player
+		
+		
+		
+		
+		
+27.06.2024
+----------
+Things todo this stream:
+	- [ ] Make the background fit to the camera
+		- [ ] make it scroll too?
+	- [ ] Think about a small story
+	- [ ] Menues
+		- [ ] Pause Menu
+		- [ ] Death Menu
+	- [ ] Interace
+		- [ ] Make a scrollbar for the death time
+	
